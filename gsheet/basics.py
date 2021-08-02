@@ -8,10 +8,10 @@ gc = gspread.service_account( filename= 'gspread_creds.json')
 wks = gc.open('worksheet_2').sheet1
 
 # you can open a spreadsheet by keys
-sht1 = gc.open_by_key('1s0bbIrt9DvHDmzpO31PVjf4yit2YVBoi2Gkg0h1Zbzg')
+sht1 = gc.open_by_key(#Gsheet key)
 
 # or, if you feel really lazy to extract that key, paste the entire url
-sht2 = gc.open_by_url('https://docs.google.com/spreadsheets/d/1s0bbIrt9DvHDmzpO31PVjf4yit2YVBoi2Gkg0h1Zbzg/edit#gid=0')
+sht2 = gc.open_by_url(#url)
 
 
 # UPDATE 
